@@ -1,0 +1,56 @@
+Leg1:
+  Roll:
+    gain: 0.8
+    relative_leg: contact_2
+    damping_factor: 0.7
+  Pitch:
+    gain: 0
+    relative_leg: contact_3
+    damping_factor: 0.7
+  Safety_limit:
+    max_angle: 20 #deg
+    max_control_action: 4.0
+  SettlingTime: 10
+
+Leg2:
+  Roll:
+    gain: 0.8
+    relative_leg: contact_1
+    damping_factor: 0.7
+  Pitch:
+    gain: 0
+    relative_leg: contact_4
+    damping_factor: 0.7
+  Safety_limit:
+    max_angle: 20 #deg
+    max_control_action: 4.0
+  SettlingTime: 10
+
+Leg3:
+  Roll:
+    gain: 0.8
+    relative_leg: contact_4
+    damping_factor: 0.7
+  Pitch:
+    gain: 0
+    relative_leg: contact_1
+    damping_factor: 0.7
+  Safety_limit:
+    max_angle: 20 #deg
+    max_control_action: 4.0
+  SettlingTime: 10
+
+Leg4:
+  Roll:
+    gain: 0.8
+    relative_leg: contact_3
+    damping_factor: 0.7
+  Pitch:
+    gain: 0
+    relative_leg: contact_2
+    damping_factor: 0.7
+  Safety_limit:
+    max_angle: 20 #deg
+    max_control_action: 4.0
+  SettlingTime: 10
+
