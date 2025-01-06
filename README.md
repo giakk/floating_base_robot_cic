@@ -1,10 +1,6 @@
 # Master_Thesis
 
-This repository contains the code developed by the master's thesis student, Riccardo Giacchino, for the development of a 
-control strategy for the lower part of the robot CENTAURO to execute wheeled locomotion on uneven and rough terrain.
-
-**NOTE**: The branch 'on_the_real_robot' is the most updated one. Please use it instead of the main one.
-
+This repository contains the code developed during my master thesis period at the [Humanoid and Human Centered Mechatronic](https://hhcm.iit.it/) department of the Istituto Italiano di Tecnologia in Genova. The objective of this work was to develop a control strategy for the lower part of the quadruped robot [CENTAURO](https://www.youtube.com/watch?v=L7JssknlCvw) to execute wheeled locomotion on uneven and rough terrain. 
 
 ## Introduction
 
@@ -16,6 +12,8 @@ behavior of the robot to better match the condition of the terrain. The latter h
 Cartesian impedance controller to control the roll and pitch angle of the base, maintaining the robot base parallel to the ground. The modified framework is then 
 tested on both real and simulated scenarios to validate the effectiveness of the controllers.
 
+## documentation
+The complete master thesis and a short summury are reported in the documentation folder.
 
 ## File System Structure
 
